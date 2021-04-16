@@ -1,4 +1,8 @@
-const { API_KEY } = require('../../.apikey');
+if (!process.env.API_KEY) {
+  require('../../.apikey');
+}
+
+const { API_KEY } = process.env;
 
 const request = require('request');
 
