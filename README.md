@@ -10,3 +10,5 @@ run "webpack" or "npm run react-dev"
 run "npm start"
 
 Then, navigate to localhost:2000, type in a city, and see what the lowest rate businesses are!
+
+Alternatively, you can just run the docker image ("docker run ktats/parking-lots)
