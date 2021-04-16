@@ -1,0 +1,51 @@
+{
+  "name": "stock-prices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktats/stock-prices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktats/lowest-rated-parking-lots/issues"
+  },
+  "homepage": "https://github.com/ktats/stock-prices#readme",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.8.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "intrinio-sdk": "^4.0.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "puppeteer": "^1.19.0",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^2.7.6",
+    "react-dev": "0.0.1",
+    "react-dom": "^16.8.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.4",
+    "stocks.js": "0.0.17"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
